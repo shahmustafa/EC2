@@ -6,9 +6,9 @@ image1 = cv2.imread('alum (6).jpg')
 image2 = cv2.imread('alum (29).jpg')
 image3 = cv2.imread('spliced_image.jpg')
 
-image1 = cv2.resize(image1, (500,500))
-image2 = cv2.resize(image2, (500,500))
-image3 = cv2.resize(image3, (500, 500))
+image1 = cv2.resize(image1, (550,550))
+image2 = cv2.resize(image2, (550,550))
+image3 = cv2.resize(image3, (550, 550))
 
 # Create the blank canvas
 canvas = np.zeros_like(image1)
